@@ -1,12 +1,45 @@
- 2. Desarrollo de los Ejercicios
+  2. Desarrollo de los ejercicios en Java
+ 1. Calculadora
 
- Calculadora
-Este programa solicita dos números al usuario y realiza las operaciones básicas: suma, resta, multiplicación y división.  
-El objetivo es practicar el uso de variables, entrada de datos y operaciones matemáticas.
+Este programa solicita al usuario dos números por teclado.
+Después realiza las cuatro operaciones básicas: suma, resta, multiplicación y división.
 
- Invertir Cadena
-Este programa pide una palabra al usuario y la muestra al revés.  
-Se utiliza un ciclo for para recorrer la cadena desde el final hasta el inicio.
- Contador de Vocales y Consonantes
-El programa recibe una palabra y cuenta cuántas vocales y consonantes contiene.  
-Para lograrlo, recorre cada letra y verifica si pertenece al grupo de vocales.
+Primero se crean las variables para guardar los números.
+Luego se realizan las operaciones y finalmente se muestran los resultados en pantalla.
+
+El objetivo del ejercicio es practicar el uso de:
+- Entrada de datos con Scanner
+- Variables
+- Operaciones matemáticas
+- Salida por consola
+
+---
+
+ 2. Invertir Cadena
+
+Este programa pide al usuario que ingrese una palabra.
+Luego recorre la palabra desde el último carácter hasta el primero utilizando un ciclo for.
+
+Cada letra se va agregando a una nueva variable hasta formar la palabra al revés.
+
+El objetivo es practicar:
+- Uso de ciclos
+- Manejo de cadenas
+- Método length()
+- Método charAt()
+
+---
+
+ 3. Contador de Vocales y Consonantes
+
+Este programa solicita una palabra al usuario.
+Después recorre cada letra y verifica si es vocal o consonante.
+
+Se usan contadores para llevar el número de vocales y consonantes.
+Al final se muestran los resultados en pantalla.
+
+El objetivo es practicar:
+- Condicionales (if)
+- Ciclos
+- Comparación de caracteres
+- Uso de contadores
